@@ -29,10 +29,61 @@ We want to make sure we describe your operation accurately on the site.
 - Do you do any embryo transfer or AI (artificial insemination) work?
 - Do you sell year-round, or is it seasonal?
 - Do you have any sale events, production sales, or do you mostly sell private treaty?
+- How do you price your cattle? (Per head, per pound, negotiated, auction price?)
+- What's your calving season? (Spring, fall, year-round?)
+- What are your typical weaning dates?
+- When is your main selling window during the year?
 
 ---
 
-## 3. Your Customers
+## 3. Herd Health and Management
+
+Buyers want to know that the cattle they're getting are healthy and well-managed. This section helps us show that on the site.
+
+- What's your vaccination program? (What vaccines do you give, and at what stages?)
+- Do you have a regular deworming schedule?
+- Do you work with a veterinarian? If so, would you want to mention that on the site?
+- Are your cattle tested for any diseases? (BVD, trich, brucellosis, etc.)
+- Do you keep health records on individual animals?
+- Are your calves weaned and preconditioned before sale, or sold at the cow's side?
+
+---
+
+## 4. Feeding and Land
+
+This helps paint the picture of how your cattle are raised.
+
+- What do your cattle eat? (Native pasture, improved grasses, hay, supplemental feed, cubes, etc.)
+- Do you raise your own hay or buy it?
+- What kind of pasture or rangeland do you run? (Native brush, coastal, buffelgrass, etc.)
+- What's your water situation? (Wells, stock tanks, river access, etc.)
+- Do you have working pens, a loading chute, or other facilities you're proud of?
+- Do you practice any kind of rotational grazing or land management?
+
+---
+
+## 5. Sales and Delivery
+
+- Do you deliver cattle to the buyer, or does the buyer pick them up?
+- If you deliver, how far are you willing to haul?
+- Do you work with any livestock haulers?
+- Do you sell through any auction barns? If so, which ones?
+- Do you provide any kind of guarantee or return policy on your animals?
+- Do you have references or testimonials from past buyers who'd be willing to be quoted on the site?
+
+---
+
+## 6. Shows, Competitions, and Industry
+
+- Have you or your cattle ever competed in any livestock shows or competitions?
+- Any ribbons, banners, or trophies you'd want featured on the site?
+- Are you involved in any 4-H or FFA programs?
+- Any involvement with the American Hereford Association or other breed registries?
+- Are there any industry events, expos, or sales you regularly attend?
+
+---
+
+## 7. Your Customers
 
 Since this is a B2B operation, we want to speak directly to the people who buy from you.
 
@@ -44,7 +95,7 @@ Since this is a B2B operation, we want to speak directly to the people who buy f
 
 ---
 
-## 4. What Makes Salinas Ranches Different
+## 8. What Makes Salinas Ranches Different
 
 This is the stuff that sets you apart. Don't be modest — brag a little.
 
@@ -58,7 +109,7 @@ This is the stuff that sets you apart. Don't be modest — brag a little.
 
 ---
 
-## 5. Contact Info for the Website
+## 9. Contact Info for the Website
 
 What do you want people to see when they visit the site and want to reach out?
 
@@ -71,7 +122,7 @@ What do you want people to see when they visit the site and want to reach out?
 
 ---
 
-## 6. Photos and Media
+## 10. Photos and Media
 
 Good photos make a huge difference. Here's what we need to know.
 
@@ -84,7 +135,7 @@ Good photos make a huge difference. Here's what we need to know.
 
 ---
 
-## 7. Website Specifics
+## 11. Website Specifics
 
 This helps us understand what you're picturing.
 
@@ -102,7 +153,7 @@ This helps us understand what you're picturing.
 
 ---
 
-## 8. Timeline and Budget
+## 12. Timeline and Budget
 
 Just so we can plan things out and make sure we're on the same page.
 
