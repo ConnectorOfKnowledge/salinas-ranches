@@ -1,0 +1,21 @@
+SALINAS RANCHES — Image Placement Guide
+========================================
+
+Place the 4 photos from Edgar in this folder with these exact filenames:
+
+1. hero-cattle.jpg    — The wide shot of cattle feeding at the trough (group shot)
+                        Used as: Full-screen hero background on homepage
+
+2. heritage-edgar.jpg — The framed photo of Edgar with the Hereford
+                        Used as: About section on homepage + Contact/About page
+
+3. cow-and-calf.jpg   — The mother cow and calf #09 at the feeder
+                        Used as: Gallery card on homepage
+
+4. young-calf.jpg     — The young calf standing alone
+                        Used as: Gallery card on homepage
+
+NOTES:
+- Images should be JPG format
+- For best results, hero image should be at least 1600px wide
+- Other images work well at 800px+ wide

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Salinas Ranches LLC | Roma, Texas</title>
+  <meta name="description" content="Get in touch with Salinas Ranches LLC in Roma, Texas. Inquiries about Hereford cattle, livestock sales, and ranch operations.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-brand">
+        <div class="nav-brand-icon">SR</div>
+        <div>
+          <span class="nav-brand-text">Salinas Ranches</span>
+          <span class="nav-brand-sub">Roma, Texas</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#cattle">Our Cattle</a></li>
+        <li><a href="index.html#values">Why Us</a></li>
+        <li><a href="contact.html" class="nav-cta active">Get in Touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="section-label">Salinas Ranches LLC</p>
+      <h1>Get in Touch</h1>
+      <p>We'd like to hear from you. Reach out with questions about our cattle or operation.</p>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT CONTENT ========== -->
+  <section class="contact-section">
+    <div class="container contact-grid">
+
+      <!-- Left: About / Info -->
+      <div class="contact-about">
+        <p class="section-label">About Us</p>
+        <h2>The Salinas Family</h2>
+        <p>Salinas Ranches LLC is a family-owned cattle operation run by Edgar Salinas and Nina Salinas in Roma, Texas. Located in Starr County along the South Texas border, the ranch sits on open rangeland that has sustained livestock for generations.</p>
+        <p>The Salinas family raises Hereford cattle — a breed prized for its hardiness in hot climates, calm temperament, and consistent beef quality. The operation focuses on raising healthy, well-cared-for livestock and selling directly to other ranches and livestock buyers.</p>
+        <p>This isn't a hobby — it's a way of life. Every animal on the ranch gets daily attention, quality feed, and the open space to grow right.</p>
+
+        <img src="images/heritage-edgar.jpg" alt="Edgar Salinas — Salinas Ranches, Roma TX" style="max-width: 360px;">
+
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <div class="icon">&#128205;</div>
+            <span>Roma, TX 78584 &mdash; Starr County</span>
+          </div>
+          <div class="contact-info-item">
+            <div class="icon">&#128222;</div>
+            <span>(956) 000-0000</span>
+          </div>
+          <div class="contact-info-item">
+            <div class="icon">&#9993;</div>
+            <span>info@salinasranches.com</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <div class="contact-form-wrap">
+        <h3>Send Us a Message</h3>
+        <p>Fill out the form below and we'll get back to you as soon as we can.</p>
+
+        <form id="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first_name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last_name" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-group">
+            <label for="company">Ranch / Company Name</label>
+            <input type="text" id="company" name="company">
+          </div>
+
+          <div class="form-group">
+            <label for="interest">I'm Interested In</label>
+            <select id="interest" name="interest">
+              <option value="" disabled selected>Select one...</option>
+              <option value="buying">Buying Cattle</option>
+              <option value="general">General Inquiry</option>
+              <option value="partnership">Business Partnership</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what you're looking for..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+
+        <div id="form-success" style="display:none; text-align:center; padding: 40px 20px;">
+          <div style="font-size: 2.5rem; margin-bottom: 16px;">&#10003;</div>
+          <h3 style="margin-bottom: 8px;">Message Sent</h3>
+          <p style="color: #6B5B4F;">Thank you for reaching out. We'll get back to you shortly.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== MAP PLACEHOLDER ========== -->
+  <section class="map-section">
+    <div style="text-align:center;">
+      <p style="font-size: 1.4rem; margin-bottom: 6px;">&#128205;</p>
+      <p><strong>Roma, Texas</strong> &mdash; Starr County</p>
+      <p style="font-size: 0.8rem; margin-top: 4px; opacity: 0.6;">Map integration available upon request</p>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Salinas Ranches LLC</div>
+          <p class="footer-desc">A family-owned Hereford cattle operation in Roma, Texas. Raising quality livestock on South Texas rangeland.</p>
+        </div>
+
+        <div>
+          <div class="footer-heading">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#cattle">Our Cattle</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Contact</div>
+          <div class="footer-contact-item">Roma, TX 78584</div>
+          <div class="footer-contact-item">(956) 000-0000</div>
+          <div class="footer-contact-item">info@salinasranches.com</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2025 Salinas Ranches LLC. All rights reserved.</span>
+        <span>Roma, Texas</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      // In production, this would send to a backend or service like Formspree
+      document.getElementById('contact-form').style.display = 'none';
+      document.getElementById('form-success').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
